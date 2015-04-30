@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient( rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("images/soraroxas.png") no-repeat;
+  -webkit-background-size: cover;
+}
+
+header {
+  display: block;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+h1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  vertical-align: middle;
+  text-align: center;
+  color: rgba(96,104,107,1);
+}
+
+
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 15%;
+  height: 4px;
+  background-color: rgba(234,234,233,0.7);
+  border: none;
+}
+
+
+
+form {
+  display: block;
+  width: 800px;
+  margin: 20px auto;
+  padding: 8px;
+}
+
+.name, .email, .message {
+  background-color: rgba(234,234,233,0.7);
+  border: 1px solid rgba(234,234,233,0.7);
+  opacity: 0.7;
+}
+
+.name {
+  width: 44%;
+  height: 44px;
+  display: inline-block;
+  position: relative;
+  margin: 6px;
+  margin-left: 27px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.email {
+  width: 44%;
+  height: 44px;
+  display: inline-block;
+  position: relative;
+  margin: 25px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.message {
+  display: block;
+  position: relative;
+  width: 93%;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: auto;
+  padding: 15px;
+}
+
+.button {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-transform: uppercase;
+  background-color: rgba(73,186,126,0.9);
+  color: white;
+  font-size: 12px;
+  border: hidden;
+}
+input::-webkit-input-placeholder {
+  color: rgba(160,160,160,1);
+  font-size: 13px;
+}
+textarea::-webkit-input-placeholder {
+  color: rgba(160,160,160,1);
+  font-size: 13px;
+}
